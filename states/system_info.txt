@@ -1,0 +1,585 @@
+sys.executable:
+===============================================================================
+/usr/bin/python3
+
+
+
+sys.version_info:
+===============================================================================
+sys.version_info(major=3, minor=9, micro=2, releaselevel='final', serial=0)
+
+
+
+sys.maxsize:
+===============================================================================
+9223372036854775807 (64 bit)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+4
+
+
+
+os.cpu_count:
+===============================================================================
+4
+
+
+
+os.sysconf('SC_NPROCESSORS_ONLN'):
+===============================================================================
+4
+
+
+
+sysctl -n hw.ncpu:
+===============================================================================
+
+
+
+
+platform.uname:
+===============================================================================
+uname_result(system='Linux', node='DESKTOP-3Q1MNEB', release='5.4.72-microsoft-standard-WSL2', version='#1 SMP Wed Oct 28 23:40:43 UTC 2020', machine='x86_64')
+
+
+
+platform.architecture:
+===============================================================================
+('64bit', 'ELF')
+
+
+
+platform.system:
+===============================================================================
+Linux
+
+
+
+platform.machine:
+===============================================================================
+x86_64
+
+
+
+cat /proc/cpuinfo:
+===============================================================================
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 122
+model name	: Intel(R) Pentium(R) Silver N5000 CPU @ 1.10GHz
+stepping	: 1
+microcode	: 0xffffffff
+cpu MHz		: 1094.399
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 21
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes xsave rdrand hypervisor lahf_lm 3dnowprefetch pti ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase smep erms rdseed smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves umip rdpid md_clear arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass
+bogomips	: 2188.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 122
+model name	: Intel(R) Pentium(R) Silver N5000 CPU @ 1.10GHz
+stepping	: 1
+microcode	: 0xffffffff
+cpu MHz		: 1094.399
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 21
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes xsave rdrand hypervisor lahf_lm 3dnowprefetch pti ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase smep erms rdseed smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves umip rdpid md_clear arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass
+bogomips	: 2188.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 122
+model name	: Intel(R) Pentium(R) Silver N5000 CPU @ 1.10GHz
+stepping	: 1
+microcode	: 0xffffffff
+cpu MHz		: 1094.399
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 21
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes xsave rdrand hypervisor lahf_lm 3dnowprefetch pti ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase smep erms rdseed smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves umip rdpid md_clear arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass
+bogomips	: 2188.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 122
+model name	: Intel(R) Pentium(R) Silver N5000 CPU @ 1.10GHz
+stepping	: 1
+microcode	: 0xffffffff
+cpu MHz		: 1094.399
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 21
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes xsave rdrand hypervisor lahf_lm 3dnowprefetch pti ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase smep erms rdseed smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves umip rdpid md_clear arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass
+bogomips	: 2188.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+
+
+
+sysctl machdep.cpu hw.cpufrequency:
+===============================================================================
+
+
+
+
+sysctl hw.model hw.machine:
+===============================================================================
+
+
+
+
+lscpu:
+===============================================================================
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          4
+On-line CPU(s) list:             0-3
+Thread(s) per core:              1
+Core(s) per socket:              4
+Socket(s):                       1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           122
+Model name:                      Intel(R) Pentium(R) Silver N5000 CPU @ 1.10GHz
+Stepping:                        1
+CPU MHz:                         1094.399
+BogoMIPS:                        2188.79
+Hypervisor vendor:               Microsoft
+Virtualization type:             full
+L1d cache:                       96 KiB
+L1i cache:                       128 KiB
+L2 cache:                        16 MiB
+Vulnerability Itlb multihit:     Not affected
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes xsave rdrand hypervisor lahf_lm 3dnowprefetch pti ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase smep erms rdseed smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves umip rdpid md_clear arch_capabilities
+
+
+
+
+dmesg -a:
+===============================================================================
+[    0.000000] Linux version 5.4.72-microsoft-standard-WSL2 (oe-user@oe-host) (gcc version 8.2.0 (GCC)) #1 SMP Wed Oct 28 23:40:43 UTC 2020
+[    0.000000] Command line: initrd=\initrd.img panic=-1 pty.legacy_count=0 nr_cpus=4
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Enabled xstate features 0x3, context size is 576 bytes, using 'compacted' format.
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000e0fff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000001fffff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x0000000000200000-0x00000000f7ffffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000002649fffff] usable
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] DMI not present or invalid.
+[    0.000000] Hypervisor detected: Microsoft Hyper-V
+[    0.000000] Hyper-V: features 0xae7f, privilege high: 0x3b8030, hints 0x60e24, misc 0x20bed7b2
+[    0.000000] Hyper-V Host Build:19041-10.0-1-0.1052
+[    0.000000] Hyper-V: LAPIC Timer Frequency: 0x1e8480
+[    0.000000] tsc: Marking TSC unstable due to running on Hyper-V
+[    0.000000] Hyper-V: Using hypercall for remote TLB flush
+[    0.000000] clocksource: hyperv_clocksource_tsc_page: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+[    0.000004] tsc: Detected 1094.399 MHz processor
+[    0.000029] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000031] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000036] last_pfn = 0x264a00 max_arch_pfn = 0x400000000
+[    0.000081] MTRR default type: uncachable
+[    0.000082] MTRR fixed ranges disabled:
+[    0.000084]   00000-FFFFF uncachable
+[    0.000085] MTRR variable ranges disabled:
+[    0.000086]   0 disabled
+[    0.000086]   1 disabled
+[    0.000087]   2 disabled
+[    0.000088]   3 disabled
+[    0.000088]   4 disabled
+[    0.000089]   5 disabled
+[    0.000090]   6 disabled
+[    0.000090]   7 disabled
+[    0.000091] Disabled
+[    0.000093] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+[    0.000106] CPU MTRRs all blank - virtualized system.
+[    0.000109] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+[    0.000111] last_pfn = 0xf8000 max_arch_pfn = 0x400000000
+[    0.000140] Using GB pages for direct mapping
+[    0.000985] RAMDISK: [mem 0x02e35000-0x02e44fff]
+[    0.000993] ACPI: Early table checksum verification disabled
+[    0.001008] ACPI: RSDP 0x00000000000E0000 000024 (v02 VRTUAL)
+[    0.001013] ACPI: XSDT 0x0000000000100000 000044 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+[    0.001021] ACPI: FACP 0x0000000000101000 000114 (v06 VRTUAL MICROSFT 00000001 MSFT 00000001)
+[    0.001029] ACPI: DSDT 0x00000000001011B8 01E184 (v02 MSFTVM DSDT01   00000001 MSFT 05000000)
+[    0.001034] ACPI: FACS 0x0000000000101114 000040
+[    0.001038] ACPI: OEM0 0x0000000000101154 000064 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+[    0.001042] ACPI: SRAT 0x000000000011F33C 000250 (v02 VRTUAL MICROSFT 00000001 MSFT 00000001)
+[    0.001047] ACPI: APIC 0x000000000011F58C 000068 (v04 VRTUAL MICROSFT 00000001 MSFT 00000001)
+[    0.001057] ACPI: Local APIC address 0xfee00000
+[    0.001565] Zone ranges:
+[    0.001566]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.001569]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.001570]   Normal   [mem 0x0000000100000000-0x00000002649fffff]
+[    0.001572] Movable zone start for each node
+[    0.001573] Early memory node ranges
+[    0.001574]   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+[    0.001576]   node   0: [mem 0x0000000000200000-0x00000000f7ffffff]
+[    0.001577]   node   0: [mem 0x0000000100000000-0x00000002649fffff]
+[    0.002684] Zeroed struct page in unavailable ranges: 14177 pages
+[    0.002687] Initmem setup node 0 [mem 0x0000000000001000-0x00000002649fffff]
+[    0.002690] On node 0 totalpages: 2476191
+[    0.002692]   DMA zone: 59 pages used for memmap
+[    0.002693]   DMA zone: 22 pages reserved
+[    0.002694]   DMA zone: 3743 pages, LIFO batch:0
+[    0.002779]   DMA32 zone: 16320 pages used for memmap
+[    0.002780]   DMA32 zone: 1011712 pages, LIFO batch:63
+[    0.048538]   Normal zone: 22824 pages used for memmap
+[    0.048542]   Normal zone: 1460736 pages, LIFO batch:63
+[    0.050142] ACPI: Local APIC address 0xfee00000
+[    0.050154] ACPI: LAPIC_NMI (acpi_id[0x01] dfl dfl lint[0x1])
+[    0.051340] IOAPIC[0]: apic_id 4, version 17, address 0xfec00000, GSI 0-23
+[    0.051347] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[    0.051351] ACPI: IRQ9 used by override.
+[    0.051354] Using ACPI (MADT) for SMP configuration information
+[    0.051357] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[    0.051375] [mem 0xf8000000-0xffffffff] available for PCI devices
+[    0.051377] Booting paravirtualized kernel on Hyper-V
+[    0.051381] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.913923] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:4 nr_node_ids:1
+[    0.915013] percpu: Embedded 50 pages/cpu s167192 r8192 d29416 u524288
+[    0.915025] pcpu-alloc: s167192 r8192 d29416 u524288 alloc=1*2097152
+[    0.915027] pcpu-alloc: [0] 0 1 2 3 
+[    0.915056] Built 1 zonelists, mobility grouping on.  Total pages: 2436966
+[    0.915058] Kernel command line: initrd=\initrd.img panic=-1 pty.legacy_count=0 nr_cpus=4
+[    0.929245] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[    0.932935] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.933021] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    1.038424] Memory: 4096436K/9904764K available (14342K kernel code, 1617K rwdata, 3124K rodata, 1552K init, 2372K bss, 277920K reserved, 0K cma-reserved)
+[    1.041376] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    1.041392] Kernel/User page tables isolation: enabled
+[    1.041415] ftrace: allocating 43998 entries in 172 pages
+[    1.112580] rcu: Hierarchical RCU implementation.
+[    1.112584] rcu: 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=4.
+[    1.112586] 	All grace periods are expedited (rcu_expedited).
+[    1.112587] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+[    1.112589] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    1.128900] Using NULL legacy PIC
+[    1.128904] NR_IRQS: 16640, nr_irqs: 456, preallocated irqs: 0
+[    1.632970] random: crng done (trusting CPU's manufacturer)
+[    1.633024] Console: colour dummy device 80x25
+[    1.633029] printk: console [tty0] enabled
+[    1.633044] ACPI: Core revision 20190816
+[    1.633421] Failed to register legacy timer interrupt
+[    1.633423] APIC: Switch to symmetric I/O mode setup
+[    1.633466] Hyper-V: Using IPI hypercalls
+[    1.633549] Calibrating delay loop (skipped), value calculated using timer frequency.. 2188.79 BogoMIPS (lpj=10943990)
+[    1.633553] pid_max: default: 32768 minimum: 301
+[    1.633580] LSM: Security Framework initializing
+[    1.633651] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    1.633707] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    1.642845] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+[    1.642864] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+[    1.642865] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+[    1.642877] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    1.642881] Spectre V2 : Mitigation: Enhanced IBRS
+[    1.642882] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[    1.642885] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[    1.642887] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+[    1.643265] Freeing SMP alternatives memory: 44K
+[    1.643448] smpboot: CPU0: Intel(R) Pentium(R) Silver N5000 CPU @ 1.10GHz (family: 0x6, model: 0x7a, stepping: 0x1)
+[    1.643543] Performance Events: unsupported p6 CPU model 122 no PMU driver, software events only.
+[    1.643543] rcu: Hierarchical SRCU implementation.
+[    1.643543] smp: Bringing up secondary CPUs ...
+[    1.643543] x86: Booting SMP configuration:
+[    1.643543] .... node  #0, CPUs:      #1 #2 #3
+[    1.793776] smp: Brought up 1 node, 4 CPUs
+[    1.793780] smpboot: Max logical packages: 1
+[    1.793783] smpboot: Total of 4 processors activated (8755.19 BogoMIPS)
+[    1.905047] node 0 initialised, 1382602 pages in 110ms
+[    1.905163] devtmpfs: initialized
+[    1.905163] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    1.905163] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[    1.905163] xor: measuring software checksum speed
+[    2.003559]    prefetch64-sse:  6072.000 MB/sec
+[    2.103557]    generic_sse:  5470.000 MB/sec
+[    2.103559] xor: using function: prefetch64-sse (6072.000 MB/sec)
+[    2.103771] NET: Registered protocol family 16
+[    2.104051] ACPI: bus type PCI registered
+[    2.104085] PCI: Fatal: No config space access function found
+[    2.107026] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    2.113746] raid6: Forced to use recovery algorithm intx1
+[    2.113746] raid6: Forced gen() algo avx2x4
+[    2.113904] ACPI: Added _OSI(Module Device)
+[    2.113905] ACPI: Added _OSI(Processor Device)
+[    2.113906] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    2.113908] ACPI: Added _OSI(Processor Aggregator Device)
+[    2.113910] ACPI: Added _OSI(Linux-Dell-Video)
+[    2.113911] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    2.113913] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[    2.123835] ACPI: 1 ACPI AML tables successfully acquired and loaded
+[    2.126211] ACPI: Interpreter enabled
+[    2.126220] ACPI: (supports S0 S5)
+[    2.126222] ACPI: Using IOAPIC for interrupt routing
+[    2.126252] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    2.126566] ACPI: Enabled 2 GPEs in block 00 to 0F
+[    2.143567] iommu: Default domain type: Translated 
+[    2.143567] SCSI subsystem initialized
+[    2.143756] hv_vmbus: Vmbus version:5.0
+[    2.144717] PCI: Using ACPI for IRQ routing
+[    2.144719] PCI: System does not support PCI
+[    2.145041] clocksource: Switched to clocksource hyperv_clocksource_tsc_page
+[    2.145036] hv_vmbus: Unknown GUID: c376c1c3-d276-48d2-90a9-c04748072c60
+[    2.565867] VFS: Disk quotas dquot_6.6.0
+[    2.565890] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    2.565966] FS-Cache: Loaded
+[    2.566571] pnp: PnP ACPI init
+[    2.581188] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+[    2.581238] pnp: PnP ACPI: found 1 devices
+[    2.591126] NET: Registered protocol family 2
+[    2.591338] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    2.591379] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    2.591849] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[    2.592632] TCP: Hash tables configured (established 131072 bind 65536)
+[    2.592707] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    2.592774] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    2.592890] NET: Registered protocol family 1
+[    2.593681] RPC: Registered named UNIX socket transport module.
+[    2.593682] RPC: Registered udp transport module.
+[    2.593683] RPC: Registered tcp transport module.
+[    2.593684] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    2.593689] PCI: CLS 0 bytes, default 64
+[    2.593774] Trying to unpack rootfs image as initramfs...
+[    2.593959] Freeing initrd memory: 64K
+[    2.593964] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    2.593966] software IO TLB: mapped [mem 0xf4000000-0xf8000000] (64MB)
+[    2.600836] kvm: no hardware support
+[    2.600840] has_svm: not amd or hygon
+[    2.600841] kvm: no hardware support
+[    2.602928] Initialise system trusted keyrings
+[    2.603077] workingset: timestamp_bits=46 max_order=22 bucket_order=0
+[    2.605243] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    2.606422] NFS: Registering the id_resolver key type
+[    2.606436] Key type id_resolver registered
+[    2.606437] Key type id_legacy registered
+[    2.606441] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+[    2.607831] Key type cifs.idmap registered
+[    2.607982] fuse: init (API version 7.31)
+[    2.608278] SGI XFS with ACLs, security attributes, realtime, scrub, repair, no debug enabled
+[    2.609384] 9p: Installing v9fs 9p2000 file system support
+[    2.609404] FS-Cache: Netfs '9p' registered for caching
+[    2.609499] FS-Cache: Netfs 'ceph' registered for caching
+[    2.609505] ceph: loaded (mds proto 32)
+[    2.622493] NET: Registered protocol family 38
+[    2.622498] Key type asymmetric registered
+[    2.622499] Asymmetric key parser 'x509' registered
+[    2.622531] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+[    2.622989] hv_vmbus: registering driver hv_pci
+[    2.623401] ACPI: AC Adapter [AC1] (on-line)
+[    2.623921] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    2.624761] Non-volatile memory driver v1.3
+[    2.625574] battery: ACPI: Battery Slot [BAT1] (battery present)
+[    2.629784] brd: module loaded
+[    2.632334] loop: module loaded
+[    2.632551] hv_vmbus: registering driver hv_storvsc
+[    2.632663] Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011)
+[    2.633363] wireguard: WireGuard 1.0.0 loaded. See www.wireguard.com for information.
+[    2.633364] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[    2.633393] tun: Universal TUN/TAP device driver, 1.6
+[    2.633984] PPP generic driver version 2.4.2
+[    2.634135] PPP BSD Compression module registered
+[    2.634136] PPP Deflate Compression module registered
+[    2.634144] PPP MPPE Compression module registered
+[    2.634146] NET: Registered protocol family 24
+[    2.634155] hv_vmbus: registering driver hv_netvsc
+[    2.649945] scsi host0: storvsc_host_t
+[    2.687251] VFIO - User Level meta-driver version: 0.3
+[    2.687514] hv_vmbus: registering driver hyperv_keyboard
+[    2.687957] rtc_cmos 00:00: RTC can wake from S4
+[    2.717844] rtc_cmos 00:00: registered as rtc0
+[    2.717903] rtc_cmos 00:00: alarms up to one month, 114 bytes nvram
+[    2.719055] device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+[    2.722871] hv_utils: Registering HyperV Utility Driver
+[    2.722873] hv_vmbus: registering driver hv_utils
+[    2.722954] hv_vmbus: registering driver hv_balloon
+[    2.723003] dxgk:err: dxg_drv_init  Version: 1
+[    2.723010] hv_vmbus: registering driver dxgkrnl
+[    2.723466] drop_monitor: Initializing network drop monitor service
+[    2.723492] Mirror/redirect action on
+[    2.725190] IPVS: Registered protocols (TCP, UDP)
+[    2.725567] IPVS: Connection hash table configured (size=4096, memory=64Kbytes)
+[    2.732947] hv_utils: cannot register PTP clock: 0
+[    2.734491] hv_utils: TimeSync IC version 4.0
+[    2.736060] hv_balloon: Using Dynamic Memory protocol version 2.0
+[    2.754660] IPVS: ipvs loaded.
+[    2.754665] IPVS: [rr] scheduler registered.
+[    2.754666] IPVS: [wrr] scheduler registered.
+[    2.754667] IPVS: [sh] scheduler registered.
+[    2.754811] hv_balloon: Cold memory discard enabled
+[    2.755446] ipt_CLUSTERIP: ClusterIP Version 0.8 loaded successfully
+[    2.755851] Initializing XFRM netlink socket
+[    2.755991] NET: Registered protocol family 10
+[    2.756612] Segment Routing with IPv6
+[    2.757930] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    2.758117] NET: Registered protocol family 17
+[    2.758158] Bridge firewalling registered
+[    2.758173] 8021q: 802.1Q VLAN Support v1.8
+[    2.758227] sctp: Hash tables configured (bind 256/256)
+[    2.758338] 9pnet: Installing 9P2000 support
+[    2.758365] Key type dns_resolver registered
+[    2.758381] Key type ceph registered
+[    2.758675] libceph: loaded (mon/osd proto 15/24)
+[    2.758679] hv_vmbus: registering driver hv_sock
+[    2.758765] NET: Registered protocol family 40
+[    2.758811] IPI shorthand broadcast: enabled
+[    2.758877] registered taskstats version 1
+[    2.758891] Loading compiled-in X.509 certificates
+[    2.759319] Btrfs loaded, crc32c=crc32c-generic
+[    2.760832] rtc_cmos 00:00: setting system clock to 2021-07-05T07:08:19 UTC (1625468899)
+[    2.760866] Unstable clock detected, switching default tracing clock to "global"
+               If you want to keep using the local clock, then add:
+                 "trace_clock=local"
+               on the kernel command line
+[    2.762893] Freeing unused kernel image memory: 1552K
+[    2.793779] Write protecting the kernel read-only data: 20480k
+[    2.794826] Freeing unused kernel image memory: 1992K
+[    2.795419] Freeing unused kernel image memory: 972K
+[    2.795565] Run /init as init process
+[    3.240024] scsi 0:0:0:0: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+[    3.250129] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[    3.335010] sd 0:0:0:0: [sda] 536870912 512-byte logical blocks: (275 GB/256 GiB)
+[    3.335014] sd 0:0:0:0: [sda] 4096-byte physical blocks
+[    3.337348] sd 0:0:0:0: [sda] Write Protect is off
+[    3.337353] sd 0:0:0:0: [sda] Mode Sense: 0f 00 00 00
+[    3.345862] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    3.643684] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[    3.765772] EXT4-fs (sda): mounted filesystem with ordered data mode. Opts: discard,errors=remount-ro,data=ordered
+[    3.799056] sd 0:0:0:0: [sda] Attached SCSI disk
+[    4.420997] Adding 3145728k swap on /swap/file.  Priority:-2 extents:2 across:3153920k 
+[    5.669740] scsi 0:0:0:1: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+[    5.670721] sd 0:0:0:1: Attached scsi generic sg1 type 0
+[    5.673835] sd 0:0:0:1: [sdb] 536870912 512-byte logical blocks: (275 GB/256 GiB)
+[    5.673839] sd 0:0:0:1: [sdb] 4096-byte physical blocks
+[    5.674043] sd 0:0:0:1: [sdb] Write Protect is off
+[    5.674046] sd 0:0:0:1: [sdb] Mode Sense: 0f 00 00 00
+[    5.674476] sd 0:0:0:1: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    5.687432] sd 0:0:0:1: [sdb] Attached SCSI disk
+[    5.696710] EXT4-fs (sdb): mounted filesystem with ordered data mode. Opts: discard,errors=remount-ro,data=ordered
+[   27.412449] TCP: eth0: Driver has suspect GRO implementation, TCP performance may be compromised.
+[   51.583880] hv_balloon: Max. dynamic memory size: 9674 MB
+[   64.244495] WSL2: Performing memory compaction.
+[ 1685.277990] WSL2: Performing memory compaction.
+[ 1746.302593] WSL2: Performing memory compaction.
+[ 1927.331521] WSL2: Performing memory compaction.
+[ 2008.375214] WSL2: Performing memory compaction.
+[ 2195.472261] WSL2: Performing memory compaction.
+[ 2266.554833] WSL2: Performing memory compaction.
+[ 2327.601537] WSL2: Performing memory compaction.
+[ 2390.641612] WSL2: Performing memory compaction.
+[ 2511.676366] WSL2: Performing memory compaction.
+[ 2572.733819] WSL2: Performing memory compaction.
+[ 2813.754921] WSL2: Performing memory compaction.
+[ 3294.777293] WSL2: Performing memory compaction.
+[ 3775.798551] WSL2: Performing memory compaction.
+[ 3956.817298] WSL2: Performing memory compaction.
+[ 4497.840129] WSL2: Performing memory compaction.
+[ 4798.860655] WSL2: Performing memory compaction.
+[ 5039.881222] WSL2: Performing memory compaction.
+[ 5340.899985] WSL2: Performing memory compaction.
+[ 5581.920578] WSL2: Performing memory compaction.
+[ 5642.938566] WSL2: Performing memory compaction.
+[ 5703.959214] WSL2: Performing memory compaction.
+[ 5764.978571] WSL2: Performing memory compaction.
+[ 5825.997712] WSL2: Performing memory compaction.
+[ 5887.018954] WSL2: Performing memory compaction.
+[ 5948.0
+
+
+
+CPUID:
+===============================================================================
+# max_extension_support
+0x80000008,
+# get_cache
+0x10008040,
+# get_info
+0x706a1,
+# get_processor_brand
+0x65746e49, 0x2952286c, 0x6e655020, 0x6d756974, 0x20295228, 0x766c6953, 0x4e207265, 0x30303035, 0x55504320, 0x31204020, 0x4730312e, 0x7a48,
+# get_vendor_id
+0x756e6547, 0x6c65746e, 0x49656e69,
+# get_flags
+0x1f8bfbff, 0xced82203, 0x20942281, 0x400004, 0x0, 0x101,
+
+
+
+
